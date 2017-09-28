@@ -9,6 +9,7 @@
     </head>
     <body>
         <h1>Simple Salary Calculator</h1>
+        <hr><br>
         <form name="calculator" action="result.jsp" method="post">
             <table>
                 <tbody>
@@ -30,9 +31,11 @@
                     </tr>
                  
                 </tbody>
-                
-            </table>
 
+            </table>
+            <input type="submit" value="Submit" id="submit"> 
+                <input type="reset" value="Clear" id="clear">
+                
         </form>
     </body>
 </html>
